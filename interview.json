@@ -1,0 +1,36 @@
+{
+	"pages": [
+		{
+			"name": "page1",
+			"elements": [
+				{
+					"type": "text",
+					"name": "name",
+					"title": "What is your name?"
+				},
+				{
+					"type": "dropdown",
+					"name": "document",
+					"title": "Select what you want to automate:",
+					"defaultValue": "document",
+					"choices": [
+						{
+							"value": "document",
+							"text": "Documents"
+						},
+						{
+							"value": "fish",
+							"text": "Fish"
+						},
+						{
+							"value": "chore",
+							"text": "Chores"
+						}
+					]
+				}
+			],
+			"title": "Welcome to Juris",
+			"description": "This is a quick demo to show you how simple it is to generate documents with Juris."
+		}
+	]
+}
